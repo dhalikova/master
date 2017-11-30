@@ -51,7 +51,13 @@
     <label>1000000000000000</label>
     <br>
     <br>
+    <!-- Объявляем форму в которой есть кнопка, при нажатии на которую будет
+    отправлен запрос на урл / тип запроса - POST-->
     <form action="" method="post">
+        <!--
+        br - переход на новую строку
+        font-size - размер шрифта
+        <input type="number" - поле для ввода типа Число-->
         <label>Первое число:</label>
         <br>
         <input type="number" step="any" max="1000000000000000" min="-1000000000000000"
@@ -64,6 +70,7 @@
                value="${number_second}" name="number_second" style="height: 30px; width: 500px; font-size: 12pt" required/>
         <br>
         <br>
+        <!-- Кнопка Умножить-->
         <input type="submit" style="height: 30px; width: 160px; font-size: 12pt" value="Умножить"/>
         <br>
         <br>
